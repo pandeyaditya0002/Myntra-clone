@@ -1,0 +1,79 @@
+.main-container {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 14.5vh; /* 8% of the viewport height */
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+  }
+  
+  .myntra-logo-container {
+    height: 3vh; /* 4% of the viewport height */
+    width: 5vw; /* 6% of the viewport width */
+    margin-left: 3vw; /* 5% of the viewport width */
+    margin-bottom: 2vw;
+    margin-right: 2vw;
+  }
+  
+  .icon-container {
+    margin-top: 0.8vh;
+    margin-right: 1vw; /* 4% of the viewport width */
+    display: flex;
+    justify-content: space-evenly;
+    width: 19vw; /* 17% of the viewport width */
+  }
+  
+  .icon p {
+    font-size: 0.8vw; /* 1.5% of the viewport width */
+    margin-top: 0;
+    font-weight: 700;
+  }
+  
+  .category-container {
+    width: 50vw; /* 50% of the viewport width */
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    margin-right: 10vw;
+  }
+  
+  .category-container span {
+    font-size: 1vw; /* 1.5% of the viewport width */
+  }
+  
+  .search-container {
+    width: 40vw; /* 35% of the viewport width */
+    display: flex;
+    align-items: center;
+    margin-right: 1vw ;
+    background-color: #f5f5f6;
+  }
+  
+  .search-container:focus-within {
+    border: 0.1vw solid grey; /* 0.5% of the viewport width */
+    border-radius: 5px;
+    /* background-color: white; */
+  }
+  
+  .search-container button {
+    border-style: none;
+    height: 6.6vh; /* 4% of the viewport height */
+    background-color: #f5f5f6;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .search-container input {
+    height: 6.5vh; /* 3.8% of the viewport height */
+    width: 100%;
+    border-style: none;
+    background-color: #f5f5f6;
+    border-radius: 0 5px 5px 0;
+    
+  }
+  
+  .search-container input:focus {
+    outline: none;
+  }
+  
